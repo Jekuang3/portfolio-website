@@ -1,0 +1,18 @@
+.about-container{
+    margin: 30px;
+}
+
+.about-info{
+    font-size: 20px;
+    line-height: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: light;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+.about-title{
+    font-size: 25px;
+    display: flex;
+    justify-content: center
+}
