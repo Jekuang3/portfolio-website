@@ -1,5 +1,5 @@
 import "./style/App.css";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import { useEffect } from "react";
 import Home from "./components/Home";
 
@@ -10,11 +10,11 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
+      <HashRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
