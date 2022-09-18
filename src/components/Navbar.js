@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import KUANG_JESSICA from "./../images/KUANG_JESSICA.pdf";
 import "./../style/Navbar.css";
 export default function Navbar() {
   return (
@@ -16,12 +17,11 @@ export default function Navbar() {
           <Link to="/" className="site-title">
             home
           </Link>
-          <Link to="/" className="site-title">
+          {/* <Link to="/" className="site-title"> */}
+          <a className="site-title" href={KUANG_JESSICA}>
             resume
-          </Link>
-          <Link to="/" className="site-title">
-            contact
-          </Link>
+          </a>
+          {/* </Link> */}
         </div>
       </nav>
     </div>
